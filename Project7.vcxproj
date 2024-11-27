@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{769fa0e6-5541-4f6f-a6fd-8a3447ff413f}</ProjectGuid>
+    <RootNamespace>Project7</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>植物明星大乱斗</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="animation.h" />
+    <ClInclude Include="atlas.h" />
+    <ClInclude Include="bubbles_bullet.h" />
+    <ClInclude Include="bubbles_bullet_ex.h" />
+    <ClInclude Include="bullet.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="game_scene.h" />
+    <ClInclude Include="gloomshroom_player.h" />
+    <ClInclude Include="menu_scene.h" />
+    <ClInclude Include="nut_player.h" />
+    <ClInclude Include="particle.h" />
+    <ClInclude Include="peashooter_player.h" />
+    <ClInclude Include="pea_bullet.h" />
+    <ClInclude Include="platform.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="player_id.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="scene.h" />
+    <ClInclude Include="scene_manager.h" />
+    <ClInclude Include="selector_scene.h" />
+    <ClInclude Include="status_bar.h" />
+    <ClInclude Include="sunflower_player.h" />
+    <ClInclude Include="sun_bullet.h" />
+    <ClInclude Include="sun_bullet_ex.h" />
+    <ClInclude Include="timer.h" />
+    <ClInclude Include="util.h" />
+    <ClInclude Include="vector2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="资源文件\1P.png" />
+    <Image Include="资源文件\1P_cursor.png" />
+    <Image Include="资源文件\1P_desc.png" />
+    <Image Include="资源文件\1P_selector_btn_down.png" />
+    <Image Include="资源文件\1P_selector_btn_idle.png" />
+    <Image Include="资源文件\1P_winner.png" />
+    <Image Include="资源文件\2P.png" />
+    <Image Include="资源文件\2P_cursor.png" />
+    <Image Include="资源文件\2P_desc.png" />
+    <Image Include="资源文件\2P_selector_btn_down.png" />
+    <Image Include="资源文件\2P_selector_btn_idle.png" />
+    <Image Include="资源文件\2P_winner.png" />
+    <Image Include="资源文件\avatar_peashooter.png" />
+    <Image Include="资源文件\avatar_sunflower.png" />
+    <Image Include="资源文件\gravestone.png" />
+    <Image Include="资源文件\hills.png" />
+    <Image Include="资源文件\jump_effect_1.png" />
+    <Image Include="资源文件\jump_effect_2.png" />
+    <Image Include="资源文件\jump_effect_3.png" />
+    <Image Include="资源文件\jump_effect_4.png" />
+    <Image Include="资源文件\jump_effect_5.png" />
+    <Image Include="资源文件\land_effect_1.png" />
+    <Image Include="资源文件\land_effect_2.png" />
+    <Image Include="资源文件\menu_background.png" />
+    <Image Include="资源文件\pea.png" />
+    <Image Include="资源文件\peashooter_attack_ex_1.png" />
+    <Image Include="资源文件\peashooter_attack_ex_2.png" />
+    <Image Include="资源文件\peashooter_attack_ex_3.png" />
+    <Image Include="资源文件\peashooter_die_1.png" />
+    <Image Include="资源文件\peashooter_die_2.png" />
+    <Image Include="资源文件\peashooter_die_3.png" />
+    <Image Include="资源文件\peashooter_die_4.png" />
+    <Image Include="资源文件\peashooter_idle_1.png" />
+    <Image Include="资源文件\peashooter_idle_2.png" />
+    <Image Include="资源文件\peashooter_idle_3.png" />
+    <Image Include="资源文件\peashooter_idle_4.png" />
+    <Image Include="资源文件\peashooter_idle_5.png" />
+    <Image Include="资源文件\peashooter_idle_6.png" />
+    <Image Include="资源文件\peashooter_idle_7.png" />
+    <Image Include="资源文件\peashooter_idle_8.png" />
+    <Image Include="资源文件\peashooter_idle_9.png" />
+    <Image Include="资源文件\peashooter_run_1.png" />
+    <Image Include="资源文件\peashooter_run_2.png" />
+    <Image Include="资源文件\peashooter_run_3.png" />
+    <Image Include="资源文件\peashooter_run_4.png" />
+    <Image Include="资源文件\peashooter_run_5.png" />
+    <Image Include="资源文件\peashooter_selector_background.png" />
+    <Image Include="资源文件\pea_break_1.png" />
+    <Image Include="资源文件\pea_break_2.png" />
+    <Image Include="资源文件\pea_break_3.png" />
+    <Image Include="资源文件\platform_large.png" />
+    <Image Include="资源文件\platform_small.png" />
+    <Image Include="资源文件\run_effect_1.png" />
+    <Image Include="资源文件\run_effect_2.png" />
+    <Image Include="资源文件\run_effect_3.png" />
+    <Image Include="资源文件\run_effect_4.png" />
+    <Image Include="资源文件\selector_background.png" />
+    <Image Include="资源文件\selector_tip.png" />
+    <Image Include="资源文件\sky.png" />
+    <Image Include="资源文件\sunflower_attack_ex_1.png" />
+    <Image Include="资源文件\sunflower_attack_ex_2.png" />
+    <Image Include="资源文件\sunflower_attack_ex_3.png" />
+    <Image Include="资源文件\sunflower_attack_ex_4.png" />
+    <Image Include="资源文件\sunflower_attack_ex_5.png" />
+    <Image Include="资源文件\sunflower_attack_ex_6.png" />
+    <Image Include="资源文件\sunflower_attack_ex_7.png" />
+    <Image Include="资源文件\sunflower_attack_ex_8.png" />
+    <Image Include="资源文件\sunflower_attack_ex_9.png" />
+    <Image Include="资源文件\sunflower_die_1.png" />
+    <Image Include="资源文件\sunflower_die_2.png" />
+    <Image Include="资源文件\sunflower_idle_1.png" />
+    <Image Include="资源文件\sunflower_idle_2.png" />
+    <Image Include="资源文件\sunflower_idle_3.png" />
+    <Image Include="资源文件\sunflower_idle_4.png" />
+    <Image Include="资源文件\sunflower_idle_5.png" />
+    <Image Include="资源文件\sunflower_idle_6.png" />
+    <Image Include="资源文件\sunflower_idle_7.png" />
+    <Image Include="资源文件\sunflower_idle_8.png" />
+    <Image Include="资源文件\sunflower_run_1.png" />
+    <Image Include="资源文件\sunflower_run_2.png" />
+    <Image Include="资源文件\sunflower_run_3.png" />
+    <Image Include="资源文件\sunflower_run_4.png" />
+    <Image Include="资源文件\sunflower_run_5.png" />
+    <Image Include="资源文件\sunflower_selector_background.png" />
+    <Image Include="资源文件\sun_1.png" />
+    <Image Include="资源文件\sun_2.png" />
+    <Image Include="资源文件\sun_3.png" />
+    <Image Include="资源文件\sun_4.png" />
+    <Image Include="资源文件\sun_5.png" />
+    <Image Include="资源文件\sun_explode_1.png" />
+    <Image Include="资源文件\sun_explode_2.png" />
+    <Image Include="资源文件\sun_explode_3.png" />
+    <Image Include="资源文件\sun_explode_4.png" />
+    <Image Include="资源文件\sun_explode_5.png" />
+    <Image Include="资源文件\sun_ex_1.png" />
+    <Image Include="资源文件\sun_ex_2.png" />
+    <Image Include="资源文件\sun_ex_3.png" />
+    <Image Include="资源文件\sun_ex_4.png" />
+    <Image Include="资源文件\sun_ex_5.png" />
+    <Image Include="资源文件\sun_ex_explode_1.png" />
+    <Image Include="资源文件\sun_ex_explode_2.png" />
+    <Image Include="资源文件\sun_ex_explode_3.png" />
+    <Image Include="资源文件\sun_ex_explode_4.png" />
+    <Image Include="资源文件\sun_ex_explode_5.png" />
+    <Image Include="资源文件\sun_text_1.png" />
+    <Image Include="资源文件\sun_text_2.png" />
+    <Image Include="资源文件\sun_text_3.png" />
+    <Image Include="资源文件\sun_text_4.png" />
+    <Image Include="资源文件\sun_text_5.png" />
+    <Image Include="资源文件\sun_text_6.png" />
+    <Image Include="资源文件\VS.png" />
+    <Image Include="资源文件\winnner_bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="资源文件\bgm_game.mp3" />
+    <Media Include="资源文件\bgm_menu.mp3" />
+    <Media Include="资源文件\pea_break_1.mp3" />
+    <Media Include="资源文件\pea_break_2.mp3" />
+    <Media Include="资源文件\pea_break_3.mp3" />
+    <Media Include="资源文件\pea_shoot_1.mp3" />
+    <Media Include="资源文件\pea_shoot_2.mp3" />
+    <Media Include="资源文件\pea_shoot_ex.mp3" />
+    <Media Include="资源文件\sun_explode.mp3" />
+    <Media Include="资源文件\sun_explode_ex.mp3" />
+    <Media Include="资源文件\sun_text.mp3" />
+    <Media Include="资源文件\ui_confirm.wav" />
+    <Media Include="资源文件\ui_switch.wav" />
+    <Media Include="资源文件\ui_win.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="资源文件\IPix.ttf" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

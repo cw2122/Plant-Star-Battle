@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\scene">
+      <UniqueIdentifier>{6596de1e-b095-449a-a115-7a3818dc17ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\player">
+      <UniqueIdentifier>{3c94e1dc-e08c-4b6a-b1a3-ae6077f92708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\bullet">
+      <UniqueIdentifier>{539769c4-ea97-4d2f-82a8-a035e5e5e990}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game_scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_manager.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="selector_scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="atlas.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="platform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>头文件\player</Filter>
+    </ClInclude>
+    <ClInclude Include="peashooter_player.h">
+      <Filter>头文件\player</Filter>
+    </ClInclude>
+    <ClInclude Include="sunflower_player.h">
+      <Filter>头文件\player</Filter>
+    </ClInclude>
+    <ClInclude Include="player_id.h">
+      <Filter>头文件\player</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>头文件\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="pea_bullet.h">
+      <Filter>头文件\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="sun_bullet.h">
+      <Filter>头文件\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="sun_bullet_ex.h">
+      <Filter>头文件\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="status_bar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gloomshroom_player.h">
+      <Filter>头文件\player</Filter>
+    </ClInclude>
+    <ClInclude Include="bubbles_bullet.h">
+      <Filter>头文件\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="bubbles_bullet_ex.h">
+      <Filter>头文件\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="nut_player.h">
+      <Filter>头文件\player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="资源文件\1P.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\1P_cursor.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\1P_desc.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\1P_selector_btn_down.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\1P_selector_btn_idle.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\1P_winner.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\2P.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\2P_cursor.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\2P_desc.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\2P_selector_btn_down.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\2P_selector_btn_idle.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\2P_winner.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\avatar_peashooter.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\avatar_sunflower.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\gravestone.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\hills.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\jump_effect_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\jump_effect_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\jump_effect_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\jump_effect_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\jump_effect_5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\land_effect_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\land_effect_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\menu_background.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\pea.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\pea_break_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\pea_break_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\pea_break_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\peashooter_attack_ex_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\peashooter_attack_ex_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\peashooter_attack_ex_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\peashooter_die_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\peashooter_die_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\peashooter_die_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\peashooter_die_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\peashooter_idle_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\peashooter_idle_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\peashooter_idle_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\peashooter_idle_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\peashooter_idle_5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\peashooter_idle_6.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\peashooter_idle_7.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\peashooter_idle_8.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\peashooter_idle_9.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\peashooter_run_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\peashooter_run_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\peashooter_run_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\peashooter_run_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\peashooter_run_5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\peashooter_selector_background.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\platform_large.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\platform_small.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\run_effect_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\run_effect_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\run_effect_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\run_effect_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\selector_background.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\selector_tip.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sky.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_ex_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_ex_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_ex_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_ex_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_ex_5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_ex_explode_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_ex_explode_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_ex_explode_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_ex_explode_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_ex_explode_5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_explode_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_explode_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_explode_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_explode_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_explode_5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_text_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_text_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_text_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_text_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_text_5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sun_text_6.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_attack_ex_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_attack_ex_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_attack_ex_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_attack_ex_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_attack_ex_5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_attack_ex_6.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_attack_ex_7.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_attack_ex_8.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_attack_ex_9.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_die_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_die_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_idle_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_idle_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_idle_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_idle_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_idle_5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_idle_6.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_idle_7.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_idle_8.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_run_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_run_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_run_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_run_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_run_5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\sunflower_selector_background.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\VS.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="资源文件\winnner_bar.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="资源文件\bgm_game.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="资源文件\bgm_menu.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="资源文件\pea_break_1.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="资源文件\pea_break_2.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="资源文件\pea_break_3.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="资源文件\pea_shoot_1.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="资源文件\pea_shoot_2.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="资源文件\pea_shoot_ex.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="资源文件\sun_explode.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="资源文件\sun_explode_ex.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="资源文件\sun_text.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="资源文件\ui_confirm.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="资源文件\ui_switch.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="资源文件\ui_win.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="资源文件\IPix.ttf">
+      <Filter>资源文件</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
